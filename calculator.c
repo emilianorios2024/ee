@@ -51,7 +51,7 @@ int calculate_result(struct Reader *reader) {
             new_token->tok_type = TOK_NUM;
             free(val_a);
             free(val_b);
-            free(op);
+        
             free(head);
             head = new_token;
         }
